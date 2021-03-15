@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(245, 243, 243);
+}
+header{
+  background-color: green;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: .3em;
+  padding: .3em 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 200px;
+  padding: .7em;
+  margin: auto;
+  margin-top: 7em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.inputFields{
+  display: flex;
+  justify-content: space-around;
+}
+.inputFields input{
+  width: 40%;
+  padding: .3em;
+  border: .1em solid green;
+  outline: none;
+}
+label{
+  padding: .3em;
+  font-weight: bold;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
+  display: flex;
+  background-color: green;
+  color: white;
+  font-size: 2em;
+  padding: 0 .5em;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.lowerSection{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 .7em;
+}
+.clearBtn{
+  background-color: rgb(247, 101, 133);
+  font-size: 1.3em;
+  padding: .3em .4em;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.result{
+  color: green;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: .3em;
+  /* display: none; */
+}
+.resultHide{
+  display: none;
+}
+.resultShow{
+  display: block;
+}
