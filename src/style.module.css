@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Noto+Sans+TC&display=swap');
+
 body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(245, 243, 243);
+  font-family: 'Mukta',
+  sans-serif;
 }
 header{
   background-color: green;
