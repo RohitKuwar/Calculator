@@ -35,7 +35,7 @@ header{
 .inputFields input{
   width: 38%;
   padding: .3em;
-  border: .1em solid green;
+  border: .11em solid green;
   outline: none;
 }
 label{
@@ -92,5 +92,22 @@ label{
 @media (max-width: 425px) {
   .container{
     width: 85vw;
+  }
+  /* .inputFields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  .btn{
+    font-size: 1em;
+    padding: .3em .6em;
+  }
+  .clearBtn{
+    font-size: .7em;
+    padding: .9em .7em;
+  }
+  .result{
+    font-size: 1em;
+    padding: .1em;
   }
 }
