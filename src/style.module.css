@@ -22,10 +22,10 @@ header{
   justify-content: space-between;
   width: 400px;
   height: 200px;
-  padding: .7em;
+  padding: 1.2em;
   margin: auto;
   margin-top: 7em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2),
   0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .inputFields{
@@ -33,7 +33,7 @@ header{
   justify-content: space-around;
 }
 .inputFields input{
-  width: 40%;
+  width: 38%;
   padding: .3em;
   border: .1em solid green;
   outline: none;
@@ -50,8 +50,8 @@ label{
   display: flex;
   background-color: green;
   color: white;
-  font-size: 2em;
-  padding: 0 .5em;
+  font-size: 1.3em;
+  padding: .3em .9em;
   font-weight: bold;
   text-align: center;
   border: none;
@@ -64,9 +64,10 @@ label{
   padding: 0 .7em;
 }
 .clearBtn{
-  background-color: rgb(247, 101, 133);
-  font-size: 1.3em;
-  padding: .3em .4em;
+  background-color: brown;
+  color: white;
+  font-size: 1em;
+  padding: 0 1em;
   text-align: center;
   border: none;
   outline: none;
@@ -75,7 +76,7 @@ label{
 .result{
   color: green;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.5em;
   padding: .3em;
   /* display: none; */
 }
@@ -84,4 +85,10 @@ label{
 }
 .resultShow{
   display: block;
+}
+
+@media (max-width: 425px) {
+  .container{
+    width: 85vw;
+  }
 }
