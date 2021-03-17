@@ -74,7 +74,6 @@ label{
   cursor: pointer;
 }
 .result{
-  background-color: white;
   color: green;
   font-weight: bold;
   font-size: 1.5em;
