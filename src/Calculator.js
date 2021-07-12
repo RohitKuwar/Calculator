@@ -37,10 +37,10 @@ useEffect(()=>{
     <header>CALCULATOR</header>
     <div className={styles.container}>
       <div className={styles.inputFields}>
-        <input type="number" value={value1} placeholder="Eg: 1" autoComplete="off"
+        <input type="number" value={value1} autoComplete="off"
         onChange={(event)=>setValue1(event.target.value)} />
         <label htmlFor="">{operation}</label>
-        <input type="number" value={value2} placeholder="Eg: 2" autoComplete="off"
+        <input type="number" value={value2} autoComplete="off"
         onChange={(event)=>setValue2(event.target.value)} />
       </div>
       <div className={styles.buttons}>
